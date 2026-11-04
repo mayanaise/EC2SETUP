@@ -1,8 +1,5 @@
 # Deploy MongoDB on an Ubuntu EC2 instance
 
-This guide and `mongo_setup.sh` complete the MongoDB documentation and provisioning-script task posted in [Data606 on 3 November 2026](https://spartagroupworkspace.slack.com/archives/C0C2P3GRDAR/p1793717982894699). The optional section explains the port-27017 inbound rule and `mongod.conf` changes.
-
-**Target:** a fresh Ubuntu Server 24.04 LTS (recommended) or 22.04 LTS **x86_64/amd64** EC2 instance with systemd. These instructions install **MongoDB Community 9.0** from MongoDB's APT repository. They are for a standalone training database.
 
 ## 1. Prepare the instance and connect
 
